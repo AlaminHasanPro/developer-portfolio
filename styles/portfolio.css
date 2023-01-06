@@ -75,7 +75,8 @@ main {
     max-width: 1140px;
     margin: 0 auto;
 }
-section{
+
+section {
     margin-top: 130px;
 }
 
@@ -143,4 +144,36 @@ section{
     color: #757575;
     margin-top: 20px;
 }
+
 /* resume styles */
+
+.resume-content {
+    display: flex;
+    gap: 24px;
+
+}
+.resume-items{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.resume .title {
+    margin-bottom: 10px;
+    color: #474747;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.resume .sub-title {
+    margin-bottom:20px;
+    color: #757575;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.resume .description {
+    color: #757575;
+}
+.resume-button{
+    margin-top: 50px;
+    text-align: center;
+}
